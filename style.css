@@ -214,7 +214,7 @@ button:hover{
 }
 .smallBoxItem h3 {
     margin-bottom: 16px;
-    font-size: 30px;
+    font-size: 1.875rem;
     font-family: Gilroy-Bold, sans-serif;
 }
 .smallBoxItem p{
@@ -269,12 +269,12 @@ button:hover{
 }
 .cardList li{
     margin-left: 8px;
-    font-size: 14px;
+    font-size: 0.875rem;
     list-style: none;
 }
 .priceCard{
-    max-height: 455px;
-    width: 379px;
+    max-height: 28.438rem;
+    width: 23.688rem;
     border: 0.2px solid #005AE2;
     margin-top: 86px;
     border-radius: 12px;
@@ -283,15 +283,15 @@ button:hover{
 }
 /* h5 headings */
 .priceCard h5, .midCard h5 {
-    font-size: 24px;
+    font-size: 1.5rem;
     margin-bottom: 34px;
 }
 .priceCard h4, .midCard h4{
-    font-size: 40px;
+    font-size: 2.5rem;
     margin-bottom: 20px;
 }
 .priceCard p, .midCard p{
-    font-size: 20px;
+    font-size: 1.25rem;
     margin-bottom: 20px;
 }
 /* end */
@@ -300,8 +300,8 @@ button:hover{
 }
 /* middle card styling */
 .midCard {
-    height: 627px;
-    width: 410px;
+    height: 39.188rem;
+    width: 25.625rem;
     background: linear-gradient(180deg, #1E3448 99.99%, rgba(30, 52, 72, 0.00) 100%);
     color: white;
     border-radius: 12px;
@@ -324,7 +324,7 @@ button:hover{
 .price button {
     padding: 12px 24px;
     border-radius: 50px;
-    width: 170px;
+    width: 10.625rem;
 }
 .price .getPrice{
     color: #0065FE;
@@ -342,7 +342,7 @@ button:hover{
 /* Form section */
 .formSection{
     margin: 112px 0 50px 0;
-    height: 523px;
+    height: 32.688rem;
     background: linear-gradient(180deg, #1E3448 99.99%, rgba(30, 52, 72, 0.00) 100%);
     padding: 84px 482px;
     position: relative;
@@ -381,14 +381,14 @@ button:hover{
 
 .form{
     background: white;
-    width: 496px;
-    height: 355px;
+    width: 31rem;
+    height: 22.188rem;
     margin: auto;
     padding: 42px;
     border-radius: 12px;
     color: #3284FF;
     font-family: Gilroy-Medium, sans-serif;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 20px;
 
 }
@@ -434,7 +434,7 @@ button:hover{
 }
 .faqTopSection h3{
     margin-left: 10px;
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 .faqFlex{
     display: flex;
@@ -447,7 +447,7 @@ button:hover{
     justify-content: space-between;
 }
 .faqTopFlex p, .faqFlex p{
-    font-size: 17px;
+    font-size: 1.063rem;
     font-family: Gilroy-Medium, sans-serif;
 }
 .faqFlex span, .faqFirstP{
@@ -469,14 +469,14 @@ button:hover{
 .linkOptBtn{
     padding: 12px 24px;
     border-radius: 50px;
-    width: 170px;
+    width: 10.625rem;
 }
 .optimize{
     margin: 120px 0;
     text-align: center;
     background: linear-gradient(180deg, #1E3448 99.99%, rgba(30, 52, 72, 0.00) 100%);
     padding: 109px 317px 133px 317px;
-    height: 299px;
+    min-height: 18.688rem;
 }
 
 /* footer styling */
@@ -484,7 +484,7 @@ button:hover{
     display: flex;
     justify-content: space-around;
     width: 90%;
-    height: 461px;
+    height: 28.813rem;
     margin: 0 auto;
 }
 .footerListFlex{
@@ -520,7 +520,7 @@ button:hover{
 
 .copyright p {
     line-height: 12px;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-family: Gilroy-Medium, sans-serif;
 }
 
