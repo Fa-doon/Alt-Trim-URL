@@ -12,15 +12,15 @@ button:hover{
 
 /* logo styling */
 .logo img{
-    width: 24px;
-    height: 24px;
+    width: 1.5rem;
+    height: 1.5rem;
     margin-right: 5px;
 }
 .logo .separate{
-    width: 3px;
+    width: 0.188rem;
 }
 .logo h3{
-    font-size: 24px;
+    font-size: 1.5rem;
     color: #0065FE;
     font-family: Gilroy-Medium, sans-serif;
 }
@@ -35,7 +35,7 @@ button:hover{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 15px auto;
+    margin: 0.938rem auto;
     width: 90%;
 }
 .navBar ul, .navBar-2{
@@ -53,19 +53,19 @@ button:hover{
 .navBar ul li a, .navBar-2 a{
     font-family: Gilroy-Medium, sans-serif;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #141414;
 }
 .navBar a:hover{
     color: #005AE2;
 }
 .navBar-2 .login a{
-    font-size: 16px;
+    font-size: 1rem;
     color: #0065FE;
     font-family: Gilroy-SemiBold, sans-serif;
 }
 .navBar-2 .logging{
-    margin-top: 10px;
+    margin-top: 0.625rem;
 }
 .navBar-2 .btn, .btn{
     background: #0065FE;
@@ -84,16 +84,16 @@ button:hover{
     position: relative;
 }
 .heroBox-1 h1{
-    width: 948px;
+    width: 59.25rem;
     /* height: 200px; */
     text-align: center;
     margin: 142px auto 0 auto;
-    font-size: 48px;
+    font-size: 3rem;
     font-family: Gilroy-Bold, sans-serif;
     line-height: 96px;
 }
 .dash{
-    width: 173.63px;
+    width: 10.852rem;
     position: absolute;
     left: 728px;
     top: 175px;
@@ -102,8 +102,8 @@ button:hover{
     color: #0065FE;
 }
 .heroBox-1 .topPara{
-    font-size: 18px;
-    width: 720px;
+    font-size: 1.125rem;
+    width: 45rem;
     font-family: Gilroy-Medium, sans-serif;
     margin: 35px auto;
     text-align: center;
@@ -152,13 +152,13 @@ button:hover{
     color: #005AE2;
 }
 .achH2{
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: bold;
     line-height: 1.1;
     font-family: Gilroy-Bold, sans-serif;
 }
 .achH3{
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: bold;
     font-family: Gilroy-SemiBold, sans-serif;
 }
@@ -181,11 +181,11 @@ button:hover{
     display: flex;
 }
 .semiTop img{
-    height: 48px;
+    height: 3rem;
 }
 .semiTop h2{
    margin-left: 12px;
-   font-size: 40px;
+   font-size: 2.5rem;
    font-family: Gilroy-Bold, sans-serif;
    margin-bottom: 20px;
 }
@@ -205,7 +205,7 @@ button:hover{
 }
 .smallBoxItem{
     width: 45%;
-    height: 150px;
+    height: 9.375rem;
     margin-bottom: 110px;
 }
 .smallBoxItem img{
@@ -238,9 +238,10 @@ button:hover{
     margin: 0 auto;  */
 }
 .pricingHeading1 h3{
-    font-size: 40px;
+    font-size: 2.5rem;
     margin: 5px 0 0 14px;
     font-family: Gilroy-Bold, sans-serif;
+    width: 100%;
 
 }
 .priceHeading p{
