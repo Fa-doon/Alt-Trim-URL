@@ -1,0 +1,535 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: #141414;
+}
+button:hover{
+    cursor: pointer;
+}
+
+/* logo styling */
+.logo img{
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+.logo .separate{
+    width: 3px;
+}
+.logo h3{
+    font-size: 24px;
+    color: #0065FE;
+    font-family: Gilroy-Medium, sans-serif;
+}
+
+/* navbar flexing */
+.logo{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 15px auto;
+    width: 90%;
+}
+.navBar ul, .navBar-2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navBar ul li, .navBar-2 li{
+    margin-left: 18px;
+    list-style-type: none;
+}
+.navBar ul li{
+    margin-left: 60px;
+}
+.navBar ul li a, .navBar-2 a{
+    font-family: Gilroy-Medium, sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    color: #141414;
+}
+.navBar a:hover{
+    color: #005AE2;
+}
+.navBar-2 .login a{
+    font-size: 16px;
+    color: #0065FE;
+    font-family: Gilroy-SemiBold, sans-serif;
+}
+.navBar-2 .logging{
+    margin-top: 10px;
+}
+.navBar-2 .btn, .btn{
+    background: #0065FE;
+    padding: 12px 24px;
+    border-radius: 50px;
+}
+.navBar-2 .btn a, .btn{
+    color: white;
+}
+
+/* *******nav styling end********** */
+
+/* Hero styling */ 
+.hero{
+    /* height: 100vh; */
+    position: relative;
+}
+.heroBox-1 h1{
+    width: 948px;
+    /* height: 200px; */
+    text-align: center;
+    margin: 142px auto 0 auto;
+    font-size: 48px;
+    font-family: Gilroy-Bold, sans-serif;
+    line-height: 96px;
+}
+.dash{
+    width: 173.63px;
+    position: absolute;
+    left: 728px;
+    top: 175px;
+}
+.heroSpan {
+    color: #0065FE;
+}
+.heroBox-1 .topPara{
+    font-size: 18px;
+    width: 720px;
+    font-family: Gilroy-Medium, sans-serif;
+    margin: 35px auto;
+    text-align: center;
+    line-height: 28px;
+}
+.heroBtn{
+    width: 30%;
+    margin: 20px auto 60px auto;
+    text-align: center;
+}
+.heroBtn .btn{
+    border: none;
+    margin-top: 32px;
+    margin-right: 56px;
+    padding: 12px 40px;
+    font-family: Gilroy-SemiBold, sans-serif;
+}
+.heroBtn a{
+    text-decoration: none;
+    color: #0065FE;
+    font-family: Gilroy-SemiBold, sans-serif;
+}
+.chainBox{
+    width: 43%;
+    margin: 0 auto;
+}
+.heroBase img{
+    width: 100%;
+    margin: 5px 0 -4px 0;
+    text-align: center;
+}
+
+/* ********her styling end********** */
+
+/* achievements section styling */
+.achievement{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0 auto;
+    background: #F9FBFD;
+    padding: 60px 140px;
+    line-height: 1.3;
+}
+.achSpan{
+    color: #005AE2;
+}
+.achH2{
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.1;
+    font-family: Gilroy-Bold, sans-serif;
+}
+.achH3{
+    font-size: 32px;
+    font-weight: bold;
+    font-family: Gilroy-SemiBold, sans-serif;
+}
+.achievement p{
+    font-family: Gilroy-Medium, sans-serif;;
+}
+
+/* **********achievement styling end*********** */
+
+/* Reasons/why section */
+
+.reasonBigBox {
+    display: flex;
+    justify-content: space-around;
+    padding: 128px 10px;
+    width: 82%;
+    margin: 0 auto;
+}
+.semiTop{
+    display: flex;
+}
+.semiTop img{
+    height: 48px;
+}
+.semiTop h2{
+   margin-left: 12px;
+   font-size: 40px;
+   font-family: Gilroy-Bold, sans-serif;
+   margin-bottom: 20px;
+}
+.reasonSmallBox {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.bigBoxItem {
+    margin-right: 96px;
+}
+.bigBoxItem p{
+    margin-left: 22px;
+    line-height: 28px;
+    font-family: Gilroy-Medium, sans-serif;
+    width: 80%;
+}
+.smallBoxItem{
+    width: 45%;
+    height: 150px;
+    margin-bottom: 110px;
+}
+.smallBoxItem img{
+    margin-bottom: 25px;
+    width: 15%;
+}
+.smallBoxItem h3 {
+    margin-bottom: 16px;
+    font-size: 30px;
+    font-family: Gilroy-Bold, sans-serif;
+}
+.smallBoxItem p{
+    font-family: Gilroy-Medium, sans-serif;
+    line-height: 24px;
+}
+
+/* **********reason/why section sytling end************** */
+
+/* pricing styling */
+.priceHeading{
+    width: 40%;
+    margin: 30px auto;
+    text-align: center;
+    line-height: 24px;
+}
+.pricingHeading1{
+    display: flex;
+    margin-left: 30px;
+    /* width: 10%;
+    margin: 0 auto;  */
+}
+.pricingHeading1 h3{
+    font-size: 40px;
+    margin: 5px 0 0 14px;
+    font-family: Gilroy-Bold, sans-serif;
+
+}
+.priceHeading p{
+    font-family: Gilroy-Medium, sans-serif;
+    line-height: 24px;
+    padding: 10px 45px;
+}
+.pricingHeading1 span{
+    color: #005AE2;
+}
+
+.priceListContainer{
+    display: flex;
+    width: 60%;
+    margin: 80px auto;
+}
+.cardList {
+    display: flex;
+    margin-bottom: 24px;
+    line-height: 1;
+}
+
+.cardList img{
+    width: 16px;
+    height: 16px;
+}
+.cardList li{
+    margin-left: 8px;
+    font-size: 14px;
+    list-style: none;
+}
+.priceCard{
+    max-height: 455px;
+    width: 379px;
+    border: 0.2px solid #005AE2;
+    margin-top: 86px;
+    border-radius: 12px;
+    padding: 24px 58px 45px 50px;
+    line-height: 24px;
+}
+/* h5 headings */
+.priceCard h5, .midCard h5 {
+    font-size: 24px;
+    margin-bottom: 34px;
+}
+.priceCard h4, .midCard h4{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.priceCard p, .midCard p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+/* end */
+.firstCard{
+    margin-right: -20px;
+}
+/* middle card styling */
+.midCard {
+    height: 627px;
+    width: 410px;
+    background: linear-gradient(180deg, #1E3448 99.99%, rgba(30, 52, 72, 0.00) 100%);
+    color: white;
+    border-radius: 12px;
+    padding: 95px 58px 45px 50px;
+    line-height: 24px;
+}
+
+/* end */
+.lastCard{
+    margin-left: -20px;
+    z-index: -1;
+}
+
+/* price button styling */
+.price-btn{
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+.price button {
+    padding: 12px 24px;
+    border-radius: 50px;
+    width: 170px;
+}
+.price .getPrice{
+    color: #0065FE;
+    background: #fff;
+    border: 0.5px solid #0065FE;
+    margin-right: 10px;
+}
+.selectPrice{
+    background: #0065FE;
+    color: white;
+    border: none;
+}
+/* *******End of pricing styling******** */
+
+/* Form section */
+.formSection{
+    margin: 112px 0 50px 0;
+    height: 523px;
+    background: linear-gradient(180deg, #1E3448 99.99%, rgba(30, 52, 72, 0.00) 100%);
+    padding: 84px 482px;
+    position: relative;
+    overflow: hidden;
+}
+.formSection .pattern-1{
+    position: absolute;
+    right: -90px;
+    bottom: -170px;
+    /* rotate: -25deg; */
+    transform: rotate(-20.345deg);
+}
+
+.formSection .pattern-3 {
+    position: absolute;
+    right: -70px;
+    bottom: -90px;
+    /* rotate: -25deg; */
+    transform: rotate(-20.345deg);
+}
+
+.formSection .pattern-2 {
+    position: absolute;
+    left: -254px;
+    bottom: 110px;
+    transform: rotate(20.636deg);
+
+}
+.formSection .pattern-4 {
+    position: absolute;
+    left: -240px;
+    bottom: 80px;
+    transform: rotate(20.636deg);
+
+}
+
+.form{
+    background: white;
+    width: 496px;
+    height: 355px;
+    margin: auto;
+    padding: 42px;
+    border-radius: 12px;
+    color: #3284FF;
+    font-family: Gilroy-Medium, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+
+}
+.topInput, .midInput, .inputBtn{
+    padding: 10px 24px;
+    border-radius: 12px;
+    border: 0.5px solid #3284FF;
+}
+.topInput, .inputBtn{
+    width: 90%;
+
+}
+.midInput{
+    width: 43%;
+}
+.firstMid{
+    margin-right: 10px;
+}
+.inputBtn{
+    background: #3284FF;
+    border: none;
+    color: #fff;
+}
+.blockInput{
+    display: block;
+    margin: 24px 0;
+}
+.privacyPolicy{
+    font-weight: bold;
+}
+
+/* ****End of Form Styling********* */
+
+/* FAQ styling */
+.faqContainer{
+    width: 55%;
+    margin: 0 auto;
+}
+.faqTopSection{
+    display: flex;
+    justify-content: center;
+    margin: 51px 0;
+}
+.faqTopSection h3{
+    margin-left: 10px;
+    font-size: 40px;
+}
+.faqFlex{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(199, 196, 196);
+    padding: 20px 0;
+}
+.faqTopFlex{
+    display: flex;
+    justify-content: space-between;
+}
+.faqTopFlex p, .faqFlex p{
+    font-size: 17px;
+    font-family: Gilroy-Medium, sans-serif;
+}
+.faqFlex span, .faqFirstP{
+    font-family: Gilroy-Medium, sans-serif;
+}
+.faqFirstP{
+    border-bottom: 1px solid rgb(199, 196, 196);
+    padding: 30px 0 20px 0;
+    line-height: 24px;
+}
+
+
+/* link optimization section */
+.optimize h3{
+    margin-bottom: 45px;
+    font-size: 40px;
+    color: #ffffff;
+}
+.linkOptBtn{
+    padding: 12px 24px;
+    border-radius: 50px;
+    width: 170px;
+}
+.optimize{
+    margin: 120px 0;
+    text-align: center;
+    background: linear-gradient(180deg, #1E3448 99.99%, rgba(30, 52, 72, 0.00) 100%);
+    padding: 109px 317px 133px 317px;
+    height: 299px;
+}
+
+/* footer styling */
+.footerFlex{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    height: 461px;
+    margin: 0 auto;
+}
+.footerListFlex{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 60%;
+}
+.footerListFlex li {
+    list-style: none;
+    line-height: 24px;
+    font-family: Gilroy-Medium, sans-serif;
+}
+
+.footerItem .footerListHeader{
+    font-family: Gilroy-Bold, sans-serif;
+    margin-bottom: 8px;
+}
+.iconFlex ul {
+    display: flex;
+    justify-content: space-around;
+}
+.iconFlex li{
+    list-style: none;
+    padding: 20px 0 0 0;
+}
+
+/* footer copyright */
+.copyright img {
+    display: block;
+    height: 12px;
+    width: 2px;
+}
+
+.copyright p {
+    line-height: 12px;
+    font-size: 14px;
+    font-family: Gilroy-Medium, sans-serif;
+}
+
+.copyright {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 120px;
+}
+
+.copy {
+    margin: 20px 8px 30px 0;
+}
